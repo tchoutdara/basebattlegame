@@ -28,13 +28,13 @@ $(document).ready( function() {
             compHealth -= 25
             $pcBase.text(compHealth)
         }
-        $('#attackChoice').text('Attack1')
+        $('#attackChoice').text('Choosen Attack: Attack1')
     })    
     
     $attack1.on('click', function() {
         var compAttackChoice = getRandomInt(3)
         if (compAttackChoice == 1) {
-            $('#pcAttackChoice').text('Attack1')
+            $('#pcAttackChoice').text('Choosen Attack: Attack1')
                 var compAttack = getRandomInt(6)
                 if (compAttack < 3) {
                 $pcAttackStat.text('You Missed')
@@ -45,7 +45,7 @@ $(document).ready( function() {
 
              } 
          } else if (compAttackChoice == 2) {
-            $('#pcAttackChoice').text('Attack2')
+            $('#pcAttackChoice').text('Choosen Attack: Attack2')
                 var compAttack = getRandomInt(6)
                 if (compAttack < 4) {
                 $pcAttackStat.text('You Missed')
@@ -55,7 +55,7 @@ $(document).ready( function() {
                 $userBase.text(userHealth)
                 }
             } else {
-            $('#pcAttackChoice').text('Attack3')
+            $('#pcAttackChoice').text('Choosen Attack: Attack3')
                 var compAttack = getRandomInt(6)
                 if (compAttack < 5) {
                 $pcAttackStat.text('You Missed')
@@ -77,13 +77,13 @@ $(document).ready( function() {
             compHealth -= 75
             $pcBase.text(compHealth)
         }
-        $('#attackChoice').text('Attack2')
+        $('#attackChoice').text('Choosen Attack: Attack2')
     }) 
     
     $attack2.on('click', function() {
         var compAttackChoice = getRandomInt(3)
         if (compAttackChoice == 1) {
-            $('#pcAttackChoice').text('Attack1')
+            $('#pcAttackChoice').text('Choosen Attack: Attack1')
                 var compAttack = getRandomInt(6)
                 if (compAttack < 3) {
                 $pcAttackStat.text('You Missed')
@@ -93,7 +93,7 @@ $(document).ready( function() {
                 $userBase.text(userHealth)
              } 
          } else if (compAttackChoice == 2) {
-            $('#pcAttackChoice').text('Attack2')
+            $('#pcAttackChoice').text('Choosen Attack: Attack2')
                 var compAttack = getRandomInt(6)
                 if (compAttack < 4) {
                 $pcAttackStat.text('You Missed')
@@ -103,7 +103,7 @@ $(document).ready( function() {
                 $userBase.text(userHealth)
                 }
             } else {
-            $('#pcAttackChoice').text('Attack3')
+            $('#pcAttackChoice').text('Choosen Attack: Attack3')
                 var compAttack = getRandomInt(6)
                 if (compAttack < 5) {
                 $pcAttackStat.text('You Missed')
@@ -126,13 +126,13 @@ $(document).ready( function() {
             compHealth -= 150
             $pcBase.text(compHealth)
         }
-        $('#attackChoice').text('Attack3')
+        $('#attackChoice').text('Choosen Attack: Attack3')
     })
 
     $attack3.on('click', function() {
         var compAttackChoice = getRandomInt(3)
         if (compAttackChoice == 1) {
-            $('#pcAttackChoice').text('Attack1')
+            $('#pcAttackChoice').text('Choosen Attack: Attack1')
                 var compAttack = getRandomInt(6)
                 if (compAttack < 3) {
                 $pcAttackStat.text('You Missed')
@@ -142,7 +142,7 @@ $(document).ready( function() {
                 $userBase.text(userHealth)
              } 
          } else if (compAttackChoice == 2) {
-            $('#pcAttackChoice').text('Attack2')
+            $('#pcAttackChoice').text('Choosen Attack: Attack2')
                 var compAttack = getRandomInt(6)
                 if (compAttack < 4) {
                 $pcAttackStat.text('You Missed')
@@ -152,7 +152,7 @@ $(document).ready( function() {
                 $userBase.text(userHealth)
                 }
             } else {
-            $('#pcAttackChoice').text('Attack3')
+            $('#pcAttackChoice').text('Choosen Attack: Attack3')
                 var compAttack = getRandomInt(6)
                 if (compAttack < 5) {
                 $pcAttackStat.text('You Missed')
