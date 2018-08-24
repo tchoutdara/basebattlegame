@@ -1,39 +1,54 @@
+<!--o(*_*)o -->
+<!-- ( .)/ -->
+<!-- 0 0 -->
+
+
 <html>
   <head>
     <link rel="stylesheet" href="styles.css" />
   </head>
   
   <body>
-    <h1>Battle</h1>
+    <!-- Add a fortress battle banner add div to clean up -->
+    <h1>Fortress Battle</h1>
     <div id="enemy-field-container">
-        <div id="field">
+      <div id="enemy-field">
         <h2>Computer Base</h2>
         <h3>Base Health:</h3>
-        <h3>1000</h3>
+        <h4 id="pcBase">1000</h4>
         <!--image of base-->
         <h3>Choosen Attack</h3>
-        <label id="pcAttackChoice"></label>
+        <h4 id="pcAttackChoice"></h4>
         <h3>Attack Status</h3>
-        <label id="compAttack"></label>
+        <h4 id="compAttack"></h4>
+      </div>
+      <div id="enemyFort">
+        <!-- fort imagee -->
+      </div>
+    </div>  
         <br>
         <br>
+    <div id="user-field-container">
+      <div id="user-field">
         <h2>Your Base</h2>
         <h3>Base Health:</h3>
-        <h3>1000</h3>
+        <h4 id="userBase">1000</h4>
         <!--image of base-->
         <h3>Choosen Attack</h3>
-        <label id="attackChoice"></label>
+        <h4 id="attackChoice"></h4>
         <h3>Attack Status</h3>
-        <label id="userAttack"></label>
-
+        <h4 id="userAttack"></h4>
+        </div>
+        <div id="userFort">
+          <!-- Fort Image -->
         </div>
     </div>
 
     <div id="attack-container">
         <div id="attack">
-            <button id="attack1Btn">Attack 1</button>
-            <button id="attack2Btn">Attack 2</button>
-            <button id="attack3Btn">Attack 3</button>
+            <button class="attack" id="attack1Btn">Attack 1</button>
+            <button class="attack" id="attack2Btn">Attack 2</button>
+            <button class="attack" id="attack3Btn">Attack 3</button>
         </div>
     </div>
 

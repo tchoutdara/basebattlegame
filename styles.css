@@ -1,0 +1,21 @@
+* {
+    background-color: #595959;
+    color: #ffffff;
+}
+
+#enemy-field-container {
+    display: flex;
+    justify-content: center;
+}
+
+#enemy-field {
+    border:2px solid black;
+}
+
+#user-field-container {
+    display: flex;
+}
+
+#user-field {
+    border:2px solid black;
+}
