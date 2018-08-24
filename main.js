@@ -26,7 +26,7 @@ $(document).ready( function() {
         } else {
             $attackStat.text('Attack Status: Hit for 25 Dmg')
             compHealth -= 25
-            $pcBase.text(compHealth)
+            $pcBase.text('Base Health:' + compHealth)
         }
         $('#attackChoice').text('Choosen Attack: Attack1')
     })    
@@ -41,7 +41,7 @@ $(document).ready( function() {
                 } else {
                 $pcAttackStat.text('Attack Status: Hit for 25 Dmg')
                 userHealth -= 25
-                $userBase.text(userHealth)
+                $userBase.text('Base Health:' + userHealth)
 
              } 
          } else if (compAttackChoice == 2) {
@@ -52,7 +52,7 @@ $(document).ready( function() {
                 } else {
                 $pcAttackStat.text('Attack Status: Hit for 75 Dmg')
                 userHealth -= 75
-                $userBase.text(userHealth)
+                $userBase.text('Base Health:' + userHealth)
                 }
             } else {
             $('#pcAttackChoice').text('Choosen Attack: Attack3')
@@ -62,7 +62,7 @@ $(document).ready( function() {
                 } else {
                 $pcAttackStat.text('Attack Status: Hit for 150 Dmg')
                 userHealth -= 150
-                $userBase.text(userHealth)
+                $userBase.text('Base Health:' + userHealth)
                 } 
             }     
         
@@ -75,7 +75,7 @@ $(document).ready( function() {
         } else {
             $attackStat.text('Attack Status: Hit for 75 Dmg')
             compHealth -= 75
-            $pcBase.text(compHealth)
+            $pcBase.text('Base Health:' + compHealth)
         }
         $('#attackChoice').text('Choosen Attack: Attack2')
     }) 
@@ -90,7 +90,7 @@ $(document).ready( function() {
                 } else {
                 $pcAttackStat.text('Attack Status: Hit for 25 Dmg')
                 userHealth -= 25
-                $userBase.text(userHealth)
+                $userBase.text('Base Health:' + userHealth)
              } 
          } else if (compAttackChoice == 2) {
             $('#pcAttackChoice').text('Choosen Attack: Attack2')
@@ -100,7 +100,7 @@ $(document).ready( function() {
                 } else {
                 $pcAttackStat.text('Attack Status: Hit for 75 Dmg')
                 userHealth -= 75
-                $userBase.text(userHealth)
+                $userBase.text('Base Health:' + userHealth)
                 }
             } else {
             $('#pcAttackChoice').text('Choosen Attack: Attack3')
@@ -110,7 +110,7 @@ $(document).ready( function() {
                 } else {
                 $pcAttackStat.text('Attack Status: Hit for 150 Dmg')
                 userHealth -= 150
-                $userBase.text(userHealth)
+                $userBase.text('Base Health:' + userHealth)
                 } 
             }     
         
@@ -124,7 +124,7 @@ $(document).ready( function() {
         } else {
             $attackStat.text('Attack Status: Hit for 150 Dmg')
             compHealth -= 150
-            $pcBase.text(compHealth)
+            $pcBase.text('Base Health:' + compHealth)
         }
         $('#attackChoice').text('Choosen Attack: Attack3')
     })
@@ -139,7 +139,7 @@ $(document).ready( function() {
                 } else {
                 $pcAttackStat.text('Attack Status: Hit for 25 Dmg')
                 userHealth -= 25
-                $userBase.text(userHealth)
+                $userBase.text('Base Health:' + userHealth)
              } 
          } else if (compAttackChoice == 2) {
             $('#pcAttackChoice').text('Choosen Attack: Attack2')
@@ -149,7 +149,7 @@ $(document).ready( function() {
                 } else {
                 $pcAttackStat.text('Attack Status: Hit for 75 Dmg')
                 userHealth -= 75
-                $userBase.text(userHealth)
+                $userBase.text('Base Health:' + userHealth)
                 }
             } else {
             $('#pcAttackChoice').text('Choosen Attack: Attack3')
@@ -159,7 +159,7 @@ $(document).ready( function() {
                 } else {
                 $pcAttackStat.text('Attack Status: Hit for 150 Dmg')
                 userHealth -= 150
-                $userBase.text(userHealth)
+                $userBase.text('Base Health:' + userHealth)
                 } 
             }     
         
