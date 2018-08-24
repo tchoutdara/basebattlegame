@@ -22,9 +22,9 @@ $(document).ready( function() {
     $attack1.on('click', function(){          
         var userAttack = getRandomInt(6)
         if (userAttack < 3) {
-            $attackStat.text('You Missed')
+            $attackStat.text('Attack Status: You Missed')
         } else {
-            $attackStat.text('Hit for 25 Dmg')
+            $attackStat.text('Attack Status: Hit for 25 Dmg')
             compHealth -= 25
             $pcBase.text(compHealth)
         }
@@ -37,9 +37,9 @@ $(document).ready( function() {
             $('#pcAttackChoice').text('Choosen Attack: Attack1')
                 var compAttack = getRandomInt(6)
                 if (compAttack < 3) {
-                $pcAttackStat.text('You Missed')
+                $pcAttackStat.text('Attack Status: You Missed')
                 } else {
-                $pcAttackStat.text('Hit for 25 Dmg')
+                $pcAttackStat.text('Attack Status: Hit for 25 Dmg')
                 userHealth -= 25
                 $userBase.text(userHealth)
 
@@ -48,9 +48,9 @@ $(document).ready( function() {
             $('#pcAttackChoice').text('Choosen Attack: Attack2')
                 var compAttack = getRandomInt(6)
                 if (compAttack < 4) {
-                $pcAttackStat.text('You Missed')
+                $pcAttackStat.text('Attack Status: You Missed')
                 } else {
-                $pcAttackStat.text('Hit for 75 Dmg')
+                $pcAttackStat.text('Attack Status: Hit for 75 Dmg')
                 userHealth -= 75
                 $userBase.text(userHealth)
                 }
@@ -58,9 +58,9 @@ $(document).ready( function() {
             $('#pcAttackChoice').text('Choosen Attack: Attack3')
                 var compAttack = getRandomInt(6)
                 if (compAttack < 5) {
-                $pcAttackStat.text('You Missed')
+                $pcAttackStat.text('Attack Status: You Missed')
                 } else {
-                $pcAttackStat.text('Hit for 150 Dmg')
+                $pcAttackStat.text('Attack Status: Hit for 150 Dmg')
                 userHealth -= 150
                 $userBase.text(userHealth)
                 } 
@@ -71,9 +71,9 @@ $(document).ready( function() {
     $attack2.on('click', function(){
         var userAttack = getRandomInt(6)
         if (userAttack < 3) {
-            $attackStat.text('You Missed')
+            $attackStat.text('Attack Status: You Missed')
         } else {
-            $attackStat.text('Hit for 75 Dmg')
+            $attackStat.text('Attack Status: Hit for 75 Dmg')
             compHealth -= 75
             $pcBase.text(compHealth)
         }
@@ -86,9 +86,9 @@ $(document).ready( function() {
             $('#pcAttackChoice').text('Choosen Attack: Attack1')
                 var compAttack = getRandomInt(6)
                 if (compAttack < 3) {
-                $pcAttackStat.text('You Missed')
+                $pcAttackStat.text('Attack Status: You Missed')
                 } else {
-                $pcAttackStat.text('Hit for 25 Dmg')
+                $pcAttackStat.text('Attack Status: Hit for 25 Dmg')
                 userHealth -= 25
                 $userBase.text(userHealth)
              } 
@@ -96,9 +96,9 @@ $(document).ready( function() {
             $('#pcAttackChoice').text('Choosen Attack: Attack2')
                 var compAttack = getRandomInt(6)
                 if (compAttack < 4) {
-                $pcAttackStat.text('You Missed')
+                $pcAttackStat.text('Attack Status: You Missed')
                 } else {
-                $pcAttackStat.text('Hit for 75 Dmg')
+                $pcAttackStat.text('Attack Status: Hit for 75 Dmg')
                 userHealth -= 75
                 $userBase.text(userHealth)
                 }
@@ -106,9 +106,9 @@ $(document).ready( function() {
             $('#pcAttackChoice').text('Choosen Attack: Attack3')
                 var compAttack = getRandomInt(6)
                 if (compAttack < 5) {
-                $pcAttackStat.text('You Missed')
+                $pcAttackStat.text('Attack Status: You Missed')
                 } else {
-                $pcAttackStat.text('Hit for 150 Dmg')
+                $pcAttackStat.text('Attack Status: Hit for 150 Dmg')
                 userHealth -= 150
                 $userBase.text(userHealth)
                 } 
@@ -120,9 +120,9 @@ $(document).ready( function() {
     $attack3.on('click', function(){
         var userAttack = getRandomInt(6)
         if (userAttack < 3) {
-            $attackStat.text('You Missed')
+            $attackStat.text('Attack Status: You Missed')
         } else {
-            $attackStat.text('Hit for 150 Dmg')
+            $attackStat.text('Attack Status: Hit for 150 Dmg')
             compHealth -= 150
             $pcBase.text(compHealth)
         }
@@ -135,9 +135,9 @@ $(document).ready( function() {
             $('#pcAttackChoice').text('Choosen Attack: Attack1')
                 var compAttack = getRandomInt(6)
                 if (compAttack < 3) {
-                $pcAttackStat.text('You Missed')
+                $pcAttackStat.text('Attack Status: You Missed')
                 } else {
-                $pcAttackStat.text('Hit for 25 Dmg')
+                $pcAttackStat.text('Attack Status: Hit for 25 Dmg')
                 userHealth -= 25
                 $userBase.text(userHealth)
              } 
@@ -145,9 +145,9 @@ $(document).ready( function() {
             $('#pcAttackChoice').text('Choosen Attack: Attack2')
                 var compAttack = getRandomInt(6)
                 if (compAttack < 4) {
-                $pcAttackStat.text('You Missed')
+                $pcAttackStat.text('Attack Status: You Missed')
                 } else {
-                $pcAttackStat.text('Hit for 75 Dmg')
+                $pcAttackStat.text('Attack Status: Hit for 75 Dmg')
                 userHealth -= 75
                 $userBase.text(userHealth)
                 }
@@ -155,9 +155,9 @@ $(document).ready( function() {
             $('#pcAttackChoice').text('Choosen Attack: Attack3')
                 var compAttack = getRandomInt(6)
                 if (compAttack < 5) {
-                $pcAttackStat.text('You Missed')
+                $pcAttackStat.text('Attack Status: You Missed')
                 } else {
-                $pcAttackStat.text('Hit for 150 Dmg')
+                $pcAttackStat.text('Attack Status: Hit for 150 Dmg')
                 userHealth -= 150
                 $userBase.text(userHealth)
                 } 
