@@ -31,6 +31,7 @@ $(document).ready( function() {
         $('#attackChoice').text('Choosen Attack: Attack1')
     })    
     
+    //Clean up the compAttack code make into function to call
     $attack1.on('click', function() {
         var compAttackChoice = getRandomInt(3)
         if (compAttackChoice == 1) {
@@ -80,6 +81,7 @@ $(document).ready( function() {
         $('#attackChoice').text('Choosen Attack: Attack2')
     }) 
     
+    //Clean up the compAttack code make into function to call
     $attack2.on('click', function() {
         var compAttackChoice = getRandomInt(3)
         if (compAttackChoice == 1) {
@@ -129,6 +131,7 @@ $(document).ready( function() {
         $('#attackChoice').text('Choosen Attack: Attack3')
     })
 
+    //Clean up the compAttack code make into function to call
     $attack3.on('click', function() {
         var compAttackChoice = getRandomInt(3)
         if (compAttackChoice == 1) {
